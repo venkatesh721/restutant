@@ -1,0 +1,307 @@
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            height: auto;
+            width: auto;
+        }
+        
+        .h {
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .i {
+            margin: 0px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .icon {
+            padding: 0px;
+            padding-top: 10px;
+            height: 190x;
+            width: 190px;
+        }
+        
+        .iconname {
+            padding: 40px 0px;
+            font-family: "Caveat Brush", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 45px;
+            animation: box 3s ease-in-out 0s 1;
+        }
+        
+        @keyframes box {
+            0% {
+                opacity: 0%;
+            }
+            25% {
+                opacity: 25%;
+            }
+            50% {
+                opacity: 50%;
+            }
+            75% {
+                opacity: 75%;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 15px;
+            flex-wrap: wrap;
+            font-size: 28px;
+            padding: 40px;
+            transition: transform 0.5s, background-color 0.5s;
+        }
+        
+        home {
+            margin-left: 0px;
+        }
+        
+        li {
+            padding: 2px;
+            border-radius: 5px;
+            transition: transform 0.5s, background-color 0.5s;
+        }
+        
+        li:hover {
+            transform: scale(1.1);
+            background-color: white;
+            border-bottom: 3px solid rgb(210, 41, 55);
+            cursor: pointer;
+        }
+        
+        .main {
+            display: grid;
+            height: 100%;
+            margin-top: 0%;
+        }
+        
+        .inspire {
+            background-color: rgb(198, 28, 28);
+            height: 90px;
+        }
+        
+        .ad1 {
+            font-family: "Schoolbell", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        #a1 {
+            color: rgb(19, 145, 148);
+            font-size: 44px;
+        }
+        
+        #b1 {
+            color: darkgoldenrod;
+            font-size: 44px;
+        }
+        
+        #c1 {
+            color: rgb(97, 6, 118);
+            font-size: 44px;
+        }
+        
+        .e1 {
+            height: 120px;
+            width: auto;
+            padding-top: 40px;
+            padding-right: 430px;
+            padding-bottom: 0px;
+            color: rgb(211, 27, 27);
+            font-family: "Caveat Brush", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+        }
+        
+        .veg {
+            text-align: center;
+        }
+        
+        .e2 {
+            display: flex;
+            gap: 120px;
+        }
+        
+        .d1 {
+            height: 200px;
+            width: 300px;
+            transition: transform 0.5s;
+            background-color: rgb(62, 90, 90);
+        }
+        
+        .d1:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .d2 {
+            height: 200px;
+            width: 300px;
+            transition: transform 0.5s;
+            background-color: aqua;
+        }
+        
+        .d2:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .d3 {
+            height: 200px;
+            width: 300px;
+            background-color: aqua;
+            transition: transform 0.5s;
+        }
+        
+        .d3:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .n1 {
+            width: auto;
+            font-family: "Caveat Brush", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+            height: 130px;
+            font-size: 50px;
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 430px;
+            color: rgb(205, 27, 27);
+        }
+        
+        .nonveg {
+            display: flex;
+            text-align: center;
+            gap: 120px;
+            margin: 20px;
+            padding-bottom: 50px;
+        }
+        
+        .de1 {
+            height: 300px;
+            width: 300px;
+            padding-left: 0px;
+            transition: transform 1s;
+        }
+        
+        .de1:hover {
+            transform: translate(15px);
+        }
+        
+        .bike {
+            height: 90px;
+            width: 20px;
+            z-index: 1;
+        }
+        
+        .d4 {
+            height: 200px;
+            width: 300px;
+            transition: transform 0.5s;
+        }
+        
+        .d4:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .d5 {
+            height: 200px;
+            width: 300px;
+            transition: transform 0.5s;
+        }
+        
+        .d5:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .d6 {
+            height: 200px;
+            width: 300px;
+            transition: transform 0.5s;
+        }
+        
+        .d6:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        .footer {
+            display: flex;
+            background-color: rgb(209, 28, 28);
+            gap: 300px;
+            height: 200px;
+        }
+        
+        .detail {
+            padding: 30px;
+            color: white;
+            padding-left: 250px;
+        }
+        
+        .address {
+            padding: 30px;
+            padding-left: 300px;
+            color: white;
+        }
+        
+        .di {
+            height: 350px;
+            width: 230px;
+            padding: 10px 0px 15px 0px;
+            transition: transform 0.5s;
+        }
+        
+        .discont {
+            animation: d 8s ease-in-out 0s 1;
+        }
+        
+        @keyframes d {
+            0% {
+                opacity: 0%;
+            }
+            25% {
+                opacity: 25%;
+            }
+            50% {
+                opacity: 50%;
+            }
+            75% {
+                opacity: 75%;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        
+        .di:hover:hover {
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .iconname {
+                font-size: smaller;
+            }
+            ul {
+                font-size: small;
+                padding-bottom: 5px;
+            }
+        }
